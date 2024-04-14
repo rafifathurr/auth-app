@@ -1,10 +1,7 @@
-import 'dart:io';
-
 import 'package:authentication_app/global/functions.dart';
 import 'package:authentication_app/global/variables.dart';
 import 'package:authentication_app/pages/home.dart';
 import 'package:authentication_app/pages/login.dart';
-import 'package:authentication_app/widget/flush_alert.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

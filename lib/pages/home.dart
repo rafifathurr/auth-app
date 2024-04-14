@@ -24,10 +24,9 @@ class _HomeState extends State<Home> {
           clearToken();
           Get.to(() => const Login());
         }
-      } on DioException catch (e) {
-        logger.e(e);
-        // clearToken();
-        // Get.to(() => const Login());
+      } on DioException {
+        clearToken();
+        Get.to(() => const Login());
       }
     });
   }

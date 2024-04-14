@@ -1,6 +1,3 @@
-import 'dart:convert';
-import 'dart:io';
-
 import 'package:authentication_app/global/functions.dart';
 import 'package:authentication_app/global/variables.dart';
 import 'package:authentication_app/pages/home.dart';
